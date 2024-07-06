@@ -11,7 +11,7 @@ interface IUser {
   phoneNumber: number;
 }
 
-export default function page() {
+export default function Page() {
   const [user, setUser] = useState<IUser | null>(null);
   const router = useRouter();
 
